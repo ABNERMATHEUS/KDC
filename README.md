@@ -99,7 +99,7 @@
             <li>Identificador de Bob (por exemplo, IP)</li>
         </ul>
     </li>
-    <li>Passo 3
+    <li>Passo 4
         <ul>
             <li>Bob armazena (k sessão). para ser utilizada
                 posteriormente e encaminha as informações que
@@ -123,8 +123,8 @@
                 sobre o nonce recebido, cifrando na (k sessão).
                 * Essa função pode ser uma operação matemática,
                 por exemplo: incrementar o nonce.</li>
-            <li># Observação: Esses dois últimos passos garantem
-                a autenticação!</li>
+            <li>**Observação: Esses dois últimos passos garantem
+                a autenticação!**</li>
         </ul>
     </li>
 <ol>
