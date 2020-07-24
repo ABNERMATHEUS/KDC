@@ -2,8 +2,7 @@
 
 <h2>Conceito</h2>
 <ul>
-
-    <li>O KDC (Key Distribution Center) é uma entidade
+<li>O KDC (Key Distribution Center) é uma entidade
         terceira responsável por distribuir chaves;</li>
     <li>Esquema de distribuição amplamente utilizado;
     </li>
@@ -17,7 +16,7 @@
 
 <ul>
 
-    <li>A comunicação entre duas entidades é realizada
+  <li>A comunicação entre duas entidades é realizada
         utilizando uma chave temporária, chamada de
         chave de sessão;
         Normalmente a duração/utilização dessa chave
@@ -41,23 +40,17 @@
 
 <ul>
 
-    <li>Premissas:
+  <li>Premissas:
         <ul>
             <li>
                 Bob deseja conversar com Alice utilizando
                 criptografia simétrica;</li>
-
-
             <li>
                 Bob não compartilha uma chave simétrica com
                 Alice;</li>
-
-
             <li>
                 Bob compartilha uma chave simétrica com o KDC
                 (k bob);</li>
-
-
             <li>
                 Alice compartilha uma chave simétrica com o KDC
                 (k alice)</li>
@@ -74,18 +67,18 @@
             <li>Identificador de Bob
             </li>
 
-            <li>Identificador de Alice
+<li>Identificador de Alice
             </li>
 
-            <li>Nonce (Identificador único: normalmente um número
+         
+ <li>Nonce (Identificador único: normalmente um número
                 aleatório ou timestamp, tem a finalidade de
                 identificar a requisição)
             </li>
         </ul>
+</li>
 
-    </li>
-
-    <li> KDC responde com uma mensagem cifrada
+ <li>KDC responde com uma mensagem cifrada
         utilizando (k bob) , ou seja, apenas Bob consegue
         decifrar;<br> A mensagem contém duas informações
         direcionadas para Bob e duas para Alice. <br>
@@ -98,7 +91,7 @@
         </ul>
     </li>
 
-    <li>Informações direcionadas para Alice cifradas
+<li>Informações direcionadas para Alice cifradas
         utilizando a (k alice):
         <ul>
             <li>Chave de sessão (k sessao), que será utilizada para
@@ -106,7 +99,6 @@
             <li>Identificador de Bob (por exemplo, IP)</li>
         </ul>
     </li>
-
     <li>Passo 3
         <ul>
             <li>Bob armazena (k sessão). para ser utilizada
