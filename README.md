@@ -117,13 +117,13 @@
 
 <li>Alice gera um nonce e encaminha para Bob,
         cifrando na (k sessão).</li>
-    <li>Passo 5
+    <li>Passo 6
         <ul>
             <li>Bob responde Alice executando uma função
                 sobre o nonce recebido, cifrando na (k sessão).
                 * Essa função pode ser uma operação matemática,
                 por exemplo: incrementar o nonce.</li>
-            <li>**Observação: Esses dois últimos passos garantem
+            <li>##Observação: Esses dois últimos passos garantem
                 a autenticação!**</li>
         </ul>
     </li>
