@@ -104,12 +104,10 @@
             <li>Bob armazena (k sessão). para ser utilizada
                 posteriormente e encaminha as informações que
                 vieram do KDC para Alice ;</li>
-
-            <li>Como a mensagem está cifrada utilizando a
+<li>Como a mensagem está cifrada utilizando a
                 (k alice), Alice sabe que a mensagem foi originada
                 em KDC;</li>
-
-            <li>Dessa forma, Alice conhece o identificador de
+<li>Dessa forma, Alice conhece o identificador de
                 Bob e a chave de sessão.</li>
             <li>Nesse momento, Bob e Alice possuem a (k sessão). e
                 podem conversar utilizando criptografia
@@ -117,7 +115,7 @@
         </ul>
     </li>
 
-    <li>Alice gera um nonce e encaminha para Bob,
+<li>Alice gera um nonce e encaminha para Bob,
         cifrando na (k sessão).</li>
     <li>Passo 5
         <ul>
@@ -129,6 +127,4 @@
                 a autenticação!</li>
         </ul>
     </li>
-
-
-    <ol>
+<ol>
